@@ -1,0 +1,18 @@
+# datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+# python
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
+
+# environments
+.env
+venv/
+
+# OS
+.DS_Store

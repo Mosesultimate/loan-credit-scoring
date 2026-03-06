@@ -1,0 +1,14 @@
+data:
+  raw_data_path: data/raw/lending_club_credit_data.csv
+  processed_data_path: data/processed/cleaned_data.csv
+
+database:
+  host: localhost
+  port: 5432
+  database: loan_scoring
+  user: postgres
+  password: password
+
+model:
+  test_size: 0.2
+  random_state: 42
